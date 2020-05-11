@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f7;
+}
+
+
+.section1{
+    width: 100%;
+    margin-top: 100px;
+}
+
+ .section1-content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+.section1-content :nth-child(1){
+    font-weight: 200;
+    font-size: 2.5em;
+    color: hsl(234, 12%, 34%);
+}
+
+.section1-content :nth-child(2){
+    font-weight: 400;
+    font-size: 2.5em;
+    color: hsl(234, 12%, 34%);
+}
+
+.section1-content :nth-child(3){
+    font-weight: 400;
+    font-size: 1em;
+    color:hsl(229, 6%, 66%);
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card-content{
+    border: 1px solid hsl(229, 6%, 66%);
+    border-radius: 5px;
+    width: 400px;
+    height: 250px;
+    margin:15px;
+    box-shadow: 3px 3px 3px 3px hsl(229, 6%, 66%);
+}
+
+.card-content .card-text{
+    padding:20px;
+}
+
+.card-content .card-text h2{
+    font-size: 1.5em;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.card-content .card-text p{
+
+    color:hsl(229, 6%, 66%);
+    font-size: 1em;
+
+}
+
+.border-card1{
+   border-top: 3px cyan solid;
+
+}
+
+.border-card2{
+    border-top: 3px solid red;
+}
+
+.border-card3{
+    border-top: 3px orange solid;
+}
+
+.border-card4{
+    border-top: 3px blue solid;
+}
+
+.card-content img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 70%;
+    margin-bottom: 10px;
+    
+}
+
+
+@media screen and (min-width:992px) and (max-width:1300px){
+   
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+   .card-content{
+       border: 1px solid hsl(229, 6%, 66%);
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin:15px;
+       box-shadow: 3px 3px 3px 3px hsl(229, 6%, 66%);
+   }
+
+   .card-content img{
+       width: 50px;
+       height: 50px;
+       position: relative;
+       left: 70%;
+       margin-bottom: 10px;
+       
+   }
+
+   .border-card1{
+       border-top: 3px cyan solid;
+    
+    }
+    
+    .border-card2{
+        border-top: 3px solid red;
+    }
+    
+    .border-card3{
+        border-top: 3px orange solid;
+    }
+    
+    .border-card4{
+        border-top: 3px blue solid;
+    }
+
+    .section1-content{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        
+    
+    }
+    
+
+}
+
+
+@media screen and (max-width:991px) and (min-width:768px){
+
+     .section2 {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+     }
+
+    .card-content{
+        border: 1px solid hsl(229, 6%, 66%);
+        border-radius: 5px;
+        width: 400px;
+        height: 250px;
+        margin:15px;
+        box-shadow: 3px 3px 3px 3px hsl(229, 6%, 66%);
+    }
+
+    .card-content img{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        left: 70%;
+        margin-bottom: 10px;
+        
+    }
+
+    .border-card1{
+        border-top: 3px cyan solid;
+     
+     }
+     
+     .border-card2{
+         border-top: 3px solid red;
+     }
+     
+     .border-card3{
+         border-top: 3px orange solid;
+     }
+     
+     .border-card4{
+         border-top: 3px blue solid;
+     }
+     .section1-content{
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        
+    
+    }
+    
+    .section1-content :nth-child(1){
+        font-weight: 200;
+        font-size: 2.5em;
+        color: hsl(234, 12%, 34%);
+    }
+    
+    .section1-content :nth-child(2){
+        font-weight: 400;
+        font-size: 2.5em;
+        color: hsl(234, 12%, 34%);
+    }
+    
+    .section1-content :nth-child(3){
+        font-weight: 400;
+        font-size: 1em;
+        color:hsl(229, 6%, 66%);
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+   .card-content{
+       border: 1px solid hsl(229, 6%, 66%);
+       border-radius: 5px;
+       width: 400px;
+       height: 250px;
+       margin:15px;
+       box-shadow: 3px 3px 3px 3px hsl(229, 6%, 66%);
+   }
+
+   .card-content img{
+       width: 50px;
+       height: 50px;
+       position: relative;
+       left: 70%;
+       margin-bottom: 10px;
+       
+   }
+
+   .border-card1{
+       border-top: 3px cyan solid;
+    
+    }
+    
+    .border-card2{
+        border-top: 3px solid red;
+    }
+    
+    .border-card3{
+        border-top: 3px orange solid;
+    }
+    
+    .border-card4{
+        border-top: 3px blue solid;
+    }
+
+    .section1-content{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        
+    
+    }
+
+    .section1-content :nth-child(1){
+        font-weight: 200;
+        font-size: 2em;
+        color: hsl(234, 12%, 34%);
+    }
+    
+    .section1-content :nth-child(2){
+        font-weight: 400;
+        font-size: 2em;
+        color: hsl(234, 12%, 34%);
+    }
+    
+
+}
+
+@media screen and (max-width:576px) and (min-width:320px){
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+   .card-content{
+       border: 1px solid hsl(229, 6%, 66%);
+       border-radius: 5px;
+       width: 300px;
+       height: 220px;
+       margin:15px;
+       box-shadow: 3px 3px 3px 3px hsl(229, 6%, 66%);
+   }
+
+   .card-content img{
+       width: 35px;
+       height: 35px;
+       position: relative;
+       left: 70%;
+       margin-bottom: 10px;
+       
+   }
+
+   .border-card1{
+       border-top: 3px cyan solid;
+    
+    }
+    
+    .border-card2{
+        border-top: 3px solid red;
+    }
+    
+    .border-card3{
+        border-top: 3px orange solid;
+    }
+    
+    .border-card4{
+        border-top: 3px blue solid;
+    }
+
+    .section1-content{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        
+    
+    }
+
+    .section1-content :nth-child(1){
+        font-weight: 200;
+        font-size: 1.5em;
+        color: hsl(234, 12%, 34%);
+    }
+    
+    .section1-content :nth-child(2){
+        font-weight: 400;
+        font-size: 1.5em;
+        color: hsl(234, 12%, 34%);
+    }
+    
+
+
+}
+
+
+
+
+
